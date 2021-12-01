@@ -18,6 +18,6 @@ jobs:
           key: ${{ secrets.KEY }}
           script: |
             cd ~/path/to/project
-            git pull git@github.com:project/home.git
+            git pull git@github.com:dev-20101953/kong-ci-cd
             kong stop
             kong start -c kong.custom.conf
